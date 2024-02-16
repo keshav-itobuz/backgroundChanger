@@ -1,5 +1,5 @@
-let count = 0;
 const buttonSection = document.getElementById("buttonSection");
+let count = 0;
 
 function getRandomColor() {
     const letters = '0123456789ABCDEF';

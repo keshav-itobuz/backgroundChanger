@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+button{
+    padding: 50px;
+    position: absolute;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.red{
+    left: 0;
+    background-color: #f94144;
+}
+.blue{
+    bottom: 0;
+    background-color: #f9844a;
+}
+.green{
+    right: 0;
+    background-color: #43aa8b;
+}
+.pink{
+    right: 0;
+    bottom: 0;
+    background-color: #f9c74f;
+}
